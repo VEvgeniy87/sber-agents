@@ -1,0 +1,25 @@
+[project]
+name = "cooking-assistant"
+version = "0.1.0"
+description = "Telegram бот кулинарный помощник на основе LLM"
+authors = [
+    {name = "Development Team", email = "team@example.com"}
+]
+dependencies = [
+    "python-dotenv>=1.0.0",
+    "aiogram>=3.0.0",
+    "openai>=1.0.0",
+    "httpx>=0.24.0",
+]
+requires-python = ">=3.11"
+
+[project.scripts]
+cooking-bot = "src.bot:main"
+
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["src*"]
