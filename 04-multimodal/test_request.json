@@ -1,0 +1,10 @@
+{
+  "model": "qwen2.5:7b-instruct",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Привет! Ответь коротко."
+    }
+  ],
+  "max_tokens": 20
+}

@@ -1,0 +1,10 @@
+{
+  "model": "llama3.2:1b",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Привет! Ответь коротко."
+    }
+  ],
+  "max_tokens": 20
+}
